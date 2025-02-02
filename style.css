@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color:rgb(11, 17, 39);
+    background-image: url("https://images.unsplash.com/photo-1583443965608-57b6bc3198e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover ;
+    color: rgb(153, 214, 245);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 5;
+
+}
+
+nav h1 {
+    margin: 10px;
+    font-size: 250%;
+    color:rgb(153, 214, 245);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    gap:100px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    color:rgb(153, 214, 245);
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5JLDI22X6kA8V0tSMEmFj0hR2slsG5HmhDw&s");
+    padding: 200px 2px;    
+    margin-top: 50px;
+    
+    margin-bottom: -20px;
+    color:rgb(2, 9, 15);
+    
+}
+
+.hero h1{
+    font-size: 250%;
+    color:rgb(2, 9, 15);
+}
+
+.hero p{
+    font-size:150% ;
+}
+.hero .btn {
+    background: rgb(2, 9, 15);
+    color: rgb(153, 214, 245);
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Featured Books */
+.featured {
+    color:rgb(153, 214, 245);
+    background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover ;
+    margin-top: 10px;
+    margin-bottom:-20px;
+}
+.book-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    color:black;
+    font-size:cover;
+}
+
+.book:hover{
+    transform: scale(1.05);
+}
+
+.book {
+    border: 2px solid rgb(2, 9, 15);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    background: white;
+    transition: 1s;
+}
+
+.book img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Categories */
+.categories{
+    color:rgb(153, 214, 245);
+    background: rgb(2, 9, 15);
+    background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color:cover ;
+    margin-top:0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    color:black;
+    font-size:cover;
+}
+.genre:hover{
+    transform: scale(1.05);
+}
+
+.genre {
+    border: x solid rgb(2, 9, 15);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    background: white;
+    transition-duration: 1s;
+}
+
+.genre img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Reviews */
+.reviews {
+    background-image:url("https://images.unsplash.com/photo-1618853606840-d2138cef5431?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:100% 100%;
+    color: rgb(153, 214, 245);
+    padding: 10px;;
+}
+.review {
+    background: rgb(153, 214, 245);
+    color:rgb(2, 9, 15);
+    margin: 20px auto;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+    border-style: dotted;
+}
+
+.bookname{
+    text-align: center;
+
+
+}
+
+.r1 {
+    display: flex;  
+}
+
+.r2 {
+    display: flex;
+}
+
+.leavereview{
+    color:  rgb(2, 9, 15);
+}
+
+form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border-color: rgb(2, 9, 15);
+}
+
+button {
+    background: rgb(2, 9, 15);
+    border-radius: 5px;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-image: url("https://images.unsplash.com/photo-1583443965608-57b6bc3198e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover ;
+    color: lightblue;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+footer a {
+    color:  lightblue;
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width : 2rem;
+    height : 2rem;
+}

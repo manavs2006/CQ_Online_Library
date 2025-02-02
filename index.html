@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo"><h1>Online Library</h1></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Featured</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <h1>One library. Millions of books. Infinite possibilities.</h1>
+        <p>Welcome to Online Library, a place to find your next great read.</p>
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder="Search for your favourite book or author"
+                    name="search">
+            </form>
+        </div>
+        <a href="#featured"><button type="Explore Books">Explore Books</button></a>
+    </section>
+
+    <!-- Featured Books -->
+    <section class="featured" id="featured">
+        <br>
+        <h2>Our Recommendations</h2>
+        <div class="book-container">
+            <div class="book">
+                <img src="https://m.media-amazon.com/images/I/71NvWibzW5L._UF1000,1000_QL80_.jpg" height="600px" alt="Book Cover">
+                <h3>And Then There Were None</h3>
+                <p> By Agatha Christie</p>
+                <p>A thrilling journey awaits you.</p>
+            </div>
+            <div class="book">
+                <img src="https://www.crossword.in/cdn/shop/products/81FummIc2eL_460x@2x.jpg?v=1680672986" height="600px" alt="Book Cover">
+                <h3>It Starts With Us</h3>
+                <p>By Colleen Hoover</p>
+                <p>A masterpiece of storytelling.</p>
+            </div>
+            <div class="book">
+                <img src="https://www.crossword.in/cdn/shop/files/81xS77gfCgL._SL1500_460x@2x.jpg?v=1707462707" height="600px" alt="Book Cover">
+                <h3>Dark Matter</h3>
+                <p>By Blake Crouch</p>
+                <p>A well written masterpiece.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="categories">
+        <BR>
+        <h2>Explore Genres</h2>
+            <div class="container">
+                 <div class="genre">
+                    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715607032i/211003759.jpg" height="88%" alt="Book Cover">
+                    <h3>Fiction</h3>
+                </div>
+                <div class="genre">
+                    <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9789382563785.jpg" height="88%" alt="Book Cover">
+                    <h3>Romance</h3>
+                </div>
+                <div class="genre">
+                    <img src="https://cdn.kobo.com/book-images/9f8e289a-3834-4f56-99d7-5ef28964e607/1200/1200/False/dune-the-gateway-collection.jpg" height="88%" alt="Book Cover">
+                    <h3>Sci-Fi</h3>
+                </div>
+                <div class="genre">
+                    <img src="https://i.harperapps.com/covers/9780062838629/y648.jpg" height="88%" alt="Book Cover">
+                    <h3>Mystery</h3>
+                </div>
+                <div class="genre">
+                    <img src="https://images1.penguinrandomhouse.com/cover/9780735214736" height="88%" alt="Book Cover">
+                    <h3>Educational</h3>
+                </div>
+        </div>
+    </section>
+    
+    <!-- User Reviews -->
+    <section id="reviews" class="reviews">
+        <h2>What Readers Say</h2>
+            <div class="r1">
+                <div class="review">
+                        <h3 class="bookname">The Midnight Library-Matt Haig</h3>
+                        <p class="words">"A beautifully written novel that explores regret, second chances, and the meaning of life. Nora Seed, the protagonist, finds herself in a mystical library where she can live alternate versions of her life. This heartwarming story encourages self-acceptance and embracing the present.!" </p>
+                        <p>-Pratham</p>
+                </div>
+                <div class="review">
+                        <h3 class="bookname">Harry Potter and the Sorcerer’s Stone – J.K. Rowling</h3>
+                        <p class="words">A magical adventure that introduces Harry Potter, an orphan who discovers he’s a wizard and attends Hogwarts. With enchanting world-building and lovable characters, this book is a perfect blend of mystery, friendship, and wonder.</p>
+                        <p>-Aarnon</p>    
+                </div>
+            </div>    
+            <div class="r2">
+                <div class="review">
+                      <h3 class="bookname">The Psychology of Money – Morgan Housel</h3>
+                        <p class="words">Morgan Housel masterfully explains how financial success isn’t about knowledge but behavior. Using engaging stories, he highlights the importance of patience, compounding, and emotional control. This book is a must-read for anyone looking to build wealth without complex financial jargon.</p>
+                        <p>-Jinansh</p>
+                </div>
+                <div class="review">
+                      <h3 class="bookname">Atomic Habits – James Clear</h3>
+                        <p class="words">James Clear presents a science-backed, practical guide to habit formation. The book explains how small, consistent changes lead to remarkable improvements. The strategies, such as the "two-minute rule" and "habit stacking," make it easy to apply. A game-changer for anyone seeking self-improvement.</p>
+                        <p>-Pradyumna</p>
+                </div>
+            </div>
+
+        <!-- Review Form -->
+        <form>
+            <h2 class="leavereview">Leave A Review</h2>
+            <input type="text" id="Your Name"  placeholder="Your Name" required>
+            <input type="email" id="Your Email" placeholder="Your Email" required>
+            <textarea placeholder="Your Review" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Online Library | 
+        <a href="#">Back to Top</a> 
+        <div class="socialmedia" id="socialmedia">
+        <a target="_blank" href="https://www.instagram.com/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="instagram">
+        </a> 
+        <a target="_blank" href="https://www.linkedin.com/feed/">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+        </div>
+        </p>
+
+    </footer>
+
+</body>
+</html>
+
